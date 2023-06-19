@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  width: 90%;
+  margin: auto !important;
+}
+
+#root {
+  max-width: 1000px;
+}
+
+/*LOGO*/
+.logo {
+  display: flex;
+  margin-top: 40px;
+}
+.logo h1 {
+  margin-top: 7px;
+  margin-left: 15px;
+}
+.mailto {
+  margin-top: 12px;
+  margin-left: auto;
+}
+
+.bodyDiv {
+  margin-top: 20px;
+}
+.dropdownItem {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdownItem:hover {
+  color: black;
+}
+.nav-link,
+.btn {
+  margin-top: 20px;
+  margin-right: 3px;
+}
+.nav-link:hover {
+  background-color: rgb(10, 83, 190) !important;
+}
+.nav-link a,
+.nav-link a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.list-group {
+  margin-top: 10px;
+}
+
+.col-md-12 {
+  max-height: 530px;
+  overflow-y: scroll;
+  border: solid 5px #cfe2ff;
+  border-radius: 10px;
+}
+
+.dropDownScrool {
+  max-height: 580px;
+  overflow-y: scroll;
+  border-top: solid 1px black;
+}
